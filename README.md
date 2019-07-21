@@ -1,4 +1,4 @@
-# Carte choroplète de données linguistiques en d3.js
+# Carte choroplète de données linguistiques en D3.js
 
 ## Description
 
