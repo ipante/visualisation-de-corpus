@@ -19,7 +19,7 @@ Le script réalisé durant l'atelier est divisé en une vingtaine d'étapes. Cha
 2. ouvrir index.html dans VS Code Editor
 3. cliquer sur "Go Live" (dans la barre au bas de VS Code)
 
-Changez simplement de script en chargeant le bon numéro de fichier via la ligne 18 du fichier "index.html"
+Changez de script en modifiant le numéro du fichier javascript à la ligne 18 du fichier "index.html"
 
 ## Ressources complémentaires
 
