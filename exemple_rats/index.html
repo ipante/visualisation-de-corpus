@@ -1,0 +1,47 @@
+<!-- tiré du tutoriel https://github.com/maptimeboston/d3-maptime -->
+<html>
+<head>
+  <title>A D3 map</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+  <script src="neighborhoods.js"></script>
+  <script src="rodents.js"></script>
+</head>
+<body>
+  <script>
+    const width = 700, height = 580;
+
+    const svg = d3.select( "body" )
+    .append( "svg" )
+    .attr( "width", width )
+    .attr( "height", height );
+
+    const neighborhoods = svg.append( "g" );
+
+    const albersProjection = d3.geoAlbers()
+        .scale( 190000 )
+        .rotate( [71.057,0] )
+        .center( [0, 42.313] )
+        .translate( [width/2,height/2] );
+
+    const geoPath = d3.geoPath()
+        .projection( albersProjection );
+
+    neighborhoods.selectAll( "path" )
+        .data( neighborhoods_json.features )
+        .enter()
+        .append( "path" )
+        .attr( "fill", "#ccc" )
+        .attr( "d", geoPath );
+
+    const rodents = svg.append( "g" );
+
+    rodents.selectAll( "path" )
+        .data( rodents_json.features )
+        .enter()
+        .append( "path" )
+        .attr( "fill", "#900" )
+        .attr( "stroke", "#999" )
+        .attr( "d", geoPath );
+  </script>
+</body>
+</html>

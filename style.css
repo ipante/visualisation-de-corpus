@@ -1,0 +1,13 @@
+body{
+    background-color : black
+}
+.monde{
+    fill: rgb(14, 3, 65)
+}
+.pays{
+    stroke : black;
+    stroke-opacity : 0.1;
+}
+.pays:hover{
+    fill : lightgrey;
+}   
