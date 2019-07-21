@@ -10,8 +10,8 @@ Le script réalisé durant l'atelier est divisé en une vingtaine d'étapes. Cha
 
 ## Matériel requis
 
-1. installer [Visual Studio Code](https://code.visualstudio.com/Download)
-2. installer le [plugin live reload](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+1. [Visual Studio Code](https://code.visualstudio.com/Download)
+2. le [plugin live reload](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Ressources complémentaires
 
