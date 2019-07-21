@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce répertoire contient le matériel de travail pour l'atelier de visualisation cartographique dans le cadre de la Summer School ["Phonologie de corpus"](https://wp.unil.ch/summerschools/courses2019/phonologie-de-corpus/) à l'UNIL du 26 au 29 juillet 2019. Il se propose de récupérer et transformer des données extraites de questionnaires documentant la réalisation du schwa en français contemporain et de produire une carte choroplète sommaire de ces données linguistiques (cf. ci-dessous). 
+Ce répertoire contient le matériel de travail pour l'atelier de visualisation cartographique dispensé par (Isaac Pante)[http://isaacpante.net] dans le cadre de la Summer School ["Phonologie de corpus"](https://wp.unil.ch/summerschools/courses2019/phonologie-de-corpus/) à l'UNIL du 26 au 29 juillet 2019. Il se propose de récupérer et transformer des données extraites de questionnaires documentant la réalisation du schwa en français contemporain et de produire une carte choroplète sommaire de ces données linguistiques (cf. ci-dessous). 
 
 ![image](https://i.imgur.com/CdOVuGe.png)
 
