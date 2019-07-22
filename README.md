@@ -35,3 +35,7 @@ Changez de script en modifiant le numéro du fichier javascript à la ligne 18 d
 - [Exemple de carte en Leaflet (copie dans cette archive)](http://bl.ocks.org/ramiroaznar/577043744d523efd6ee981887b274d5a)
 - [Carte du chômage aux US](https://observablehq.com/@jdev42092/week-10b-intro-to-d3-js-mapping-data-with-d3)
 - [Animated state border maps](https://github.com/maptime-ams/animated-borders-d3js)
+
+## Remarque générale
+
+*Le code disponible dans cette archive a été pensé à des fins pédagogiques. A ce titre, il compte un certain nombre de redondances (pour faciliter l'acquisition), une variation syntaxique (pour présenter différents styles de codage) et n'est pas optimisé.*
