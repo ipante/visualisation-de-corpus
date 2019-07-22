@@ -26,14 +26,12 @@ const convertir_en_pays = code_q => {
         case 'CQA':
         case 'CAA':
             return 'Canada'; 
-        case 'SVA': 
+        case 'RCA': 
             return 'Central African Rep.';
-        case 'SCA':
+        case 'CIA':
             return "Côte d'Ivoire";
-        case '81a':
-        case '13b':
-        case '75c':
-        case '61a':        
+        case '81A':
+        case '13B':
             return 'France';                   
     }
 }
