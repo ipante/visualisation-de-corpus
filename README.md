@@ -21,6 +21,14 @@ Le script réalisé durant l'atelier est divisé en une vingtaine d'étapes. Cha
 
 Changez de script en modifiant le numéro du fichier javascript à la ligne 18 du fichier "index.html"
 
+## Conventions de notation
+
+/*    : désigne l'objectif du script
+//>>  : désigne un un nouveau commentaire
+//    : désigne un ancien commentaire
+//!!  : attire l'attention sur une particularité
+//??  : désigne une suggestion à réaliser
+
 ## Ressources complémentaires
 
 - [Carte des rongeurs à Boston (copie dans cette archive)](http://duspviz.mit.edu/d3-workshop/mapping-data-with-d3/)
