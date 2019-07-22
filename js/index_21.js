@@ -133,7 +133,15 @@ function principale(data){
           .append('title')
               // obtenir le nom de l'id
               // l'ajouter au contenu
-              .text(d => noms_pays[d.id])
+              .text(d => {
+                let valeur = 'Non étudié'
+                donnees_groupees.forEach(v =>{
+                    if(noms_pays[d.id] == v.key){
+                        valeur = v.value + '%';
+                    }
+                })
+                return valeur;
+            })
   });  
 }
 //>> initialisation une fois la page chargée
