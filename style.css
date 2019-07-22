@@ -9,5 +9,5 @@ body{
     stroke-opacity : 0.1;
 }
 .pays:hover{
-    fill : lightgrey;
+    /* fill : lightgrey; */
 }

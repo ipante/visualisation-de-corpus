@@ -96,7 +96,7 @@ Promise.all([
         .attr('class','pays')
         .attr('d',genererChemins)
         .attr('fill', d => {
-            let couleur = 'blue';
+            let couleur = 'lightgray';
             donnees_groupees.forEach(v => {
                 if(noms_pays[d.id] == v.key){
                     couleur = echelle_couleur(v.value)
