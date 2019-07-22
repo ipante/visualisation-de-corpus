@@ -25,6 +25,7 @@ const convertir_en_pays = code_q => {
             return 'Switzerland';
         case 'CQA':
         case 'CAA':
+        case 'CQE':
             return 'Canada'; 
         case 'RCA': 
             return 'Central African Rep.';
@@ -32,6 +33,8 @@ const convertir_en_pays = code_q => {
             return "Côte d'Ivoire";
         case '81A':
         case '13B':
+        case '75C':
+        case '61A':              
             return 'France';                   
     }
 }

@@ -47,6 +47,7 @@ function principale(data){
               return 'Switzerland';
           case 'CQA':
           case 'CAA':
+          case 'CQE':
               return 'Canada'; 
           case 'RCA': 
               return 'Central African Rep.';
@@ -54,6 +55,8 @@ function principale(data){
               return "Côte d'Ivoire";
           case '81A':
           case '13B':
+          case '75C':
+          case '61A':              
               return 'France';                   
       }
   }
