@@ -1,4 +1,4 @@
-/* PREMIERE VIS : UNE LIGNE DE 1000 PX */
+/* CREER UNE LIGNE DE 1000 PX */
 
 // importation des donnees
 d3.csv("donnees.csv", function(d){
@@ -16,15 +16,16 @@ d3.csv("donnees.csv", function(d){
         })
         .entries(data);
     
-    //>> ajout d'un rectangle de 1000 px
+    //>> créer un élément SVG pour dessiner
     let canevas = d3.select('body').append('svg');
-        canevas.append('rect')
-            .attr('x', 10)
-            .attr('y', 5)
-            .attr('width', 1000)
-            .attr('height', 2)
+    //>> ajouter un rectangle
+    canevas.append('rect')
+        //> renseigner chaque attribut
+        .attr('x', 10)
+        .attr('y', 5)
+        .attr('width', 1000)
+        .attr('height', 2)
     
     console.log(donnees_groupees);
 
 });
-

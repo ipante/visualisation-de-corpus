@@ -15,5 +15,5 @@ d3.csv("donnees.csv", function(d){
         //>> second groupement
         .key(function(d) { return d.task; })
         .entries(data);
-    console.log(donnees_groupees);    
+    console.log(donnees_groupees);
 });

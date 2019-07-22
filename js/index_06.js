@@ -11,8 +11,10 @@ d3.csv("donnees.csv", function(d){
 }).then(function(data) {
     let donnees_groupees = d3.nest()
         .key(function(d) { return d.match; })
-        //>> récupérer le nombre avec Rollup
+        //>> récupérer le nombre de valeurs avec Rollup
         .rollup(function(v) { return v.length; })
         .entries(data);
-    console.log(donnees_groupees);    
+    console.log(donnees_groupees);
+    //?? combien y-a-il de locuteurs ?
+    //?? combien de questionnaires ?    
 });

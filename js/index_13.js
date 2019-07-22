@@ -23,19 +23,21 @@ Promise.all([
     d3.json('https://unpkg.com/world-atlas@1.1.4/world/110m.json')
 ]).then(([tsv_data,json_data])=>{
     const noms_pays = {};
-    // extraire les noms et les mapper
+    //>> extraire les noms et les mapper
     tsv_data.forEach(d => {
+        //!! iso 3 est la norme de pays
         noms_pays[d.iso_n3] = d.name;
     });
     const pays = topojson.feature(json_data,json_data.objects.countries);
     const chemins = canevas.selectAll('path')
-        .data(pays.features);
-    chemins.enter()
+        .data(pays.features)
+        .enter()
         .append('path')
         .attr('class','pays')
         .attr('d',genererChemins)
         .attr('fill','purple')
         // ajout du nom
         .append('title')
+            //>> ajout de chaque nom
             .text(d => noms_pays[d.id])
 });

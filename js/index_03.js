@@ -4,7 +4,9 @@
 d3.csv("donnees.csv", function(d){
     return {
         //>> création de variables
-        //>> conversion numérique
+        //>> conversion numérique avec +
+        //>> accès à un caractère avec [n]
+        //!! le code est sensible à la casse
         match : +d.Match[0],
         speaker : d.Speaker,
         survey : d.Survey,

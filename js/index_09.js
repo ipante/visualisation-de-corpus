@@ -22,15 +22,19 @@ d3.csv("donnees.csv", function(d){
             .attr('width', 1000)
             .attr('height', 2)
 
-        //>> ajour des rectangles
+        //>> ajout des rectangles
         canevas.selectAll('rect')
             //>> joindre les données
             .data(donnees_groupees)
-            //>> spécialité de d3
+            //>> gestion des nouveaux noeuds
             .enter()
             .append('rect')
                 .attr('x', 10)
                 //>> calculer la position avec l'index
+                //!! toute fonction sous un data inclut
+                //!! une boucle et a accès à 2 paramètres
+                //!! le premier correspond à la donnée
+                //!! le seconde à l'index de la donnée
                 .attr('y', (d,i) => i*10)
                 //>> calculer la largeur avec la donnée
                 .attr('width', d => (d.value*1000)/100)

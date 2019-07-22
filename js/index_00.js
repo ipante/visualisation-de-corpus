@@ -1,5 +1,6 @@
-/* L'ENJEU DU FICHIER EST DECRIT ICI */
+/* L'ENJEU DU SCRIPT EST DECRIT ICI */
 
-// les précédents commentaires
-
-//>> les nouveaux commentaires
+//>> : désigne un un nouveau commentaire
+//   : désigne un ancien commentaire
+//!! : attire l'attention sur une particularité
+//?? : désigne une suggestion à réaliser

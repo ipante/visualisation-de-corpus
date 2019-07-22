@@ -4,6 +4,7 @@
 d3.csv("donnees.csv", function(d){
     //>> réduction avec une fonction
     //>> d'accesseur
+    //!! par défaut, retourne du texte
     return {
         match : d.Match,
         speaker : d.Speaker,

@@ -20,4 +20,3 @@ d3.csv("donnees.csv", function(d){
         .entries(data);
     console.log(donnees_groupees);    
 });
-

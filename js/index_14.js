@@ -32,8 +32,8 @@ Promise.all([
     console.log(noms_pays);
     const pays = topojson.feature(json_data,json_data.objects.countries);
     const chemins = canevas.selectAll('path')
-        .data(pays.features);
-    chemins.enter()
+        .data(pays.features)
+        .enter()
         .append('path')
         .attr('class','pays')
         .attr('d',genererChemins)
