@@ -1,7 +1,7 @@
 /* CREER DES VARIABLES AD HOC : VIA EVALUATION */
 
 // importation des donnees
-d3.csv("donnees.csv", function(d){
+d3.csv("donnees/donnees.csv", function(d){
     return {
         match : +d.Match[0],
         speaker : d.Speaker,

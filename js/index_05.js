@@ -1,7 +1,7 @@
 /* REGROUPER DES DONNEES AVEC D3.NEST */
 
 // importation des donnees
-d3.csv("donnees.csv", function(d){
+d3.csv("donnees/donnees.csv", function(d){
     return {
         match : +d.Match[0],
         speaker : d.Speaker,

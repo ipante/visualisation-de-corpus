@@ -1,7 +1,7 @@
 /* RENOMMER ET FILTRER LES DONNEES */
 
 // importation des donnees
-d3.csv("donnees.csv", function(d){
+d3.csv("donnees/donnees.csv", function(d){
     //>> réduction avec une fonction
     //>> d'accesseur
     //!! par défaut, retourne du texte

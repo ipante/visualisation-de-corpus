@@ -1,7 +1,7 @@
 /* CREER DES VARIABLES AD HOC : INDEX DE CHAINE */
 
 // importation des donnees
-d3.csv("donnees.csv", function(d){
+d3.csv("donnees/donnees.csv", function(d){
     return {
         //>> création de variables
         //>> conversion numérique avec +
