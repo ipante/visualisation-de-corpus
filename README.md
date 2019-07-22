@@ -24,10 +24,10 @@ Changez de script en modifiant le numéro du fichier javascript à la ligne 18 d
 ## Conventions de notation
 
 - /*    : signale l'objectif du script
-- //>>  : signale un un nouveau commentaire
-- //    : signale un ancien commentaire
-- //!!  : signale une particularité
-- //??  : signale un exercice à réaliser
+- //>>  : signale un commentaire pour l'étape actuelle
+- //    : signale un commentaire d'une étape précédente
+- //!!  : signale une particularité de la librairie ou de js
+- //??  : signale un exercice à réaliser pour vous tester
 
 ## Ressources complémentaires
 
