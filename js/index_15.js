@@ -20,7 +20,7 @@ Promise.all([
     d3.tsv('https://unpkg.com/world-atlas@1.1.4/world/110m.tsv'),
     d3.json('https://unpkg.com/world-atlas@1.1.4/world/110m.json'),
     //>> Joindre les données CSV
-    d3.csv('donnees.csv', function(d){
+    d3.csv('donnees/donnees.csv', function(d){
         return {
             match : +d.Match[0],
             speaker : d.Speaker,

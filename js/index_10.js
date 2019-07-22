@@ -1,4 +1,4 @@
-/* CREATION D'UNE BARRE PAR % DE SCHWA PAR LOCUTEUR */
+/* CREATION D'UNE BARRE PAR % DE SCHWA PAR TACHE */
 
 d3.csv("donnees/donnees.csv", function(d){
     return {
@@ -10,11 +10,12 @@ d3.csv("donnees/donnees.csv", function(d){
 }).then(function(data) {
     let donnees_groupees = d3.nest()
         .key(function(d) { return d.survey; })
+        //>> grouper par tache
+        .key(function(d) { return d.task; })
         .rollup(function(v) {
             return +(100 * d3.mean(v, d => d.match)).toFixed(2)
         })
         .entries(data);
-        console.log(Données_groupees);
 
     let canevas = d3.select('body').append('svg');
         canevas.append('rect')
