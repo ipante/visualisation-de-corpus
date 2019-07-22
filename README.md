@@ -23,11 +23,11 @@ Changez de script en modifiant le numéro du fichier javascript à la ligne 18 d
 
 ## Conventions de notation
 
-- /*    : désigne l'objectif du script
-- //>>  : désigne un un nouveau commentaire
-- //    : désigne un ancien commentaire
-- //!!  : attire l'attention sur une particularité
-- //??  : désigne un exercice pour vous tester
+- /*    : signale l'objectif du script
+- //>>  : signale un un nouveau commentaire
+- //    : signale un ancien commentaire
+- //!!  : signale une particularité
+- //??  : signale un exercice à réaliser
 
 ## Ressources complémentaires
 
