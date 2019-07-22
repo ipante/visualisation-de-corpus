@@ -1,4 +1,4 @@
-/* IMPORTATION DE DONNEES EN LIGNE AVWC TABLETOP.js */
+/* IMPORTATION DE DONNEES EN LIGNE AVEC TABLETOP.js */
 
 //>> un exemple de ce code est disponible sur Codepen
 //>> https://codepen.io/isaacpante/pen/OKyOZQ
@@ -6,9 +6,13 @@
 //!! pensez à claiquer sur la petite roue crantée
 
 //>> injection de l'url publique du fichier
+//!! la procédure de création de cette url
+//!! est disponible dans la documentation
+//!! de tabletop.js : https://github.com/jsoma/tabletop
 const url_publique_gdocs = 'https://docs.google.com/spreadsheets/d/1L1k85pJ4S75CIThBsbkhSw9VGnEow2bdxua7y590Ir4/edit?usp=sharing';
 
-//> initialisation de tabletop.js
+//>> initialisation de tabletop.js
+//!! cf. documentation
 function init() {
   Tabletop.init({
     key: url_publique_gdocs,
@@ -60,6 +64,8 @@ function principale(data){
       d3.json('https://unpkg.com/world-atlas@1.1.4/world/110m.json')      
   ]).then(([tsv_data,json_data])=>{
       //>> préparation des données
+      //>> création d'un tableau identique
+      //>> à celui importé via d3.csv
       let donnees = [];
       data.forEach(d => {
         donnees.push({
@@ -127,5 +133,5 @@ function principale(data){
               .text(d => noms_pays[d.id])
   });  
 }
-
+//>> initialisation une fois la page chargée
 window.addEventListener('DOMContentLoaded', init);
