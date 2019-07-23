@@ -31,6 +31,7 @@ Changez de script en modifiant le numéro du fichier javascript à la ligne 18 d
 
 ## Ressources complémentaires
 
+- [Générer vos cartes GeoJSON](https://geojson-maps.ash.ms/)
 - [Carte des rongeurs à Boston (copie dans cette archive)](http://duspviz.mit.edu/d3-workshop/mapping-data-with-d3/)
 - [Exemple de carte en Leaflet (copie dans cette archive)](http://bl.ocks.org/ramiroaznar/577043744d523efd6ee981887b274d5a)
 - [Carte du chômage aux US](https://observablehq.com/@jdev42092/week-10b-intro-to-d3-js-mapping-data-with-d3)
