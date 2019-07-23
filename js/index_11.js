@@ -3,8 +3,9 @@
 //> créer le canevas
 const canevas = d3.select('body')
   .append('svg')
-  .attr('width',window.innerWidth)
-  .attr('height',window.innerHeight)
+  .attr("viewBox", "0 0 960 600")
+  .style("width", "100%")
+  .style("height", "auto");
 //> choisir la pojection
 const maProjection = d3.geoMercator();
 //> la passer en paramètre du
