@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce répertoire contient le matériel de travail pour l'atelier de visualisation cartographique donné par [Isaac Pante](http://isaacpante.net) dans le cadre de la Summer School ["Phonologie de corpus"](https://wp.unil.ch/summerschools/courses2019/phonologie-de-corpus/) dispensée à l'UNIL du 22 au 26 juillet 2019. Il se propose de récupérer et transformer des données extraites de questionnaires documentant la réalisation du schwa en français contemporain et de produire une carte choroplète sommaire de ces données linguistiques grâce à la librairie [D3.js](https://d3js.org/) (cf. ci-dessous). En fin d'atelier (index_21.js), la librairie [tabletop.js](https://github.com/jsoma/tabletop) est utilisée pour charger des données stockées dans une feuille Google Docs publique.
+Ce répertoire contient le matériel de travail pour l'atelier de visualisation cartographique donné par [Isaac Pante](http://isaacpante.net) dans le cadre de la Summer School ["Phonologie de corpus"](https://wp.unil.ch/summerschools/courses2019/phonologie-de-corpus/) dispensée à l'UNIL du 22 au 26 juillet 2019. Il se propose de récupérer et transformer des données extraites de questionnaires documentant la réalisation du schwa en français contemporain et de produire une carte choroplète sommaire de ces données linguistiques grâce à la librairie [D3.js](https://d3js.org/). En fin d'atelier, la librairie [tabletop.js](https://github.com/jsoma/tabletop) est utilisée pour charger des données stockées dans une [feuille Google Docs publique](https://docs.google.com/spreadsheets/d/1L1k85pJ4S75CIThBsbkhSw9VGnEow2bdxua7y590Ir4/edit?usp=sharing).
 
 ![image](https://i.imgur.com/tVWx2Yr.png)
 
