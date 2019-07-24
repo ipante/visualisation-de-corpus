@@ -1,8 +1,10 @@
 /* CHARGEMENT D'UNE CARTE DU MONDE EN D3 */
 
-//> créer le canevas
+// créer le canevas
 const canevas = d3.select('body')
   .append('svg')
+  //> améliorer le cadrage par l'ajout
+  //> d'une viewbox
   .attr("viewBox", "0 0 960 600")
   .style("width", "100%")
   .style("height", "auto");
