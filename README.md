@@ -13,7 +13,7 @@ Le script réalisé durant l'atelier est divisé en une vingtaine d'étapes. Cha
 1. [Visual Studio Code](https://code.visualstudio.com/Download)
 2. le [plugin live reload](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-## Charger un script
+## Charger une étape de script
 
 1. télécharger l'archive
 2. ouvrir index.html dans VS Code Editor
