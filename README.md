@@ -8,7 +8,7 @@ Ce répertoire contient le matériel de travail pour l'atelier de visualisation 
 
 Le script réalisé durant l'atelier est divisé en une vingtaine d'étapes. Chacune d'elle est numérotée et dispose de son propre fichier dans le répertoire JS. Les données sont rassemblées dans le répertoire du même nom. Le répertoire varia contient d'autres ressources, rassemblées à titre d'illustration.
 
-## Outils de développement
+## Outils de développement utilsés durant l'atelier
 
 1. [Visual Studio Code](https://code.visualstudio.com/Download)
 2. le [plugin live reload](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
