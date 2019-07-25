@@ -5,7 +5,7 @@ const canevas = d3.select('body')
   .append('svg')
   .attr("viewBox", "0 0 960 600")
   .style("width", "100%")
-  .style("height", "auto");
+  .style("height", "auto")
   //>> ajout du Zoom
   .call(d3.zoom().on("zoom", function(){
     canevas.attr("transform", d3.event.transform)
